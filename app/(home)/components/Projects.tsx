@@ -10,14 +10,14 @@ function Projects() {
         {
             title:"Storyversebooks",
             tech:[SiReact,SiMongodb,SiExpress,SiTailwindcss],
-            link:"",
+            link:"https://storyversebooks.vercel.app/",
             cover:"/storyversebooks.png",
             background:"bg-sky-300"
         },
         {
             title:"CartEase",
             tech:[SiNextdotjs,SiSanity,SiTailwindcss,SiFramer,SiStripe],
-            link:"",
+            link:"https://cartease.vercel.app/",
             cover:"/cartease.png",
             background:"bg-[#D0FCB3]"
         }

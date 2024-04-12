@@ -52,13 +52,13 @@ export const HoverEffect = ({
             )}
             
           </AnimatePresence>
-          <div className="rounded-2xl w-full p-4 cursor-pointer overflow-hidden bg-black group-hover:ring-2 ring-sky-300 relative z-20 transition-all duration-500">
-                <div className="py-10 z-50 space-y-5">
+          <div className="rounded-2xl text-center w-full p-4 px-8 cursor-pointer overflow-hidden bg-black group-hover:ring-2 ring-sky-300 relative z-20 transition-all duration-500">
+                <div className="py-6 md:py-10 z-50 space-y-5 ">
                     <Icons className="w-8 h-8 mx-auto"/>
-                    <p className="text-2xl font-bold text-center text-gray-300">{item.text}</p>
-                    <Meteors number={20} className="absolute"/>
+                    <p className="text-xs md:text-sm lg:text-base font-bold text-gray-300 md:leading-tight">{item.text}</p>
+                    
                 </div>
-                
+                <Meteors number={20}/>
           </div>
           
         </div>
