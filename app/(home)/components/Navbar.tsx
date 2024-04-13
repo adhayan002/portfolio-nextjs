@@ -23,8 +23,8 @@ function Navbar({className}:{className?:string}) {
         <div className='flex items-center gap-5'>
             {socials.map((social,index)=>{
                 const Icon=social.Icon
-                return <Link href={social.link} key={index} aria-label={social.label}>
-                    <Icon className='h-5 w-5 scale-125 transition-all hover:text-sky-300 hover:animate-pulse hover:scale-125'/>
+                return <Link href={social.link} key={index} aria-label={social.label} style={{zIndex:2}}>
+                    <Icon className='h-5 w-5 scale-125 transition-all hover:text-sky-300 hover:animate-pulse hover:scale-125' />
                 </Link>
             })}
         </div>

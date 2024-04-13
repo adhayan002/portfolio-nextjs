@@ -10,12 +10,14 @@ import Footer from './(home)/components/Footer'
 function page() {
   return (
     <>
-    <TracingBeam className='max-h-screen'>
+    
       <div className='min-h-screen bg-black p-5 overflow-hidden'>
       <div className='relative'>
         <div className='max-w-7xl mx-auto'>
-            <Navbar/>
-            <HeroSection/>
+          <Navbar/>
+        </div>
+        <div className='max-w-7xl mx-auto'>
+          <HeroSection/>
         </div>
         <div className='h-10 xl:h-32 bg-gradient-to-t from-black absolute -bottom-5 left-0 xl:bottom-0 w-full'></div>
       </div>
@@ -25,7 +27,7 @@ function page() {
         <Footer/>
       </div>
     </div>
-    </TracingBeam>
+   
     </>
   )
 }

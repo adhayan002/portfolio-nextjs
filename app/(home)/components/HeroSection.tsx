@@ -18,14 +18,14 @@ function HeroSection() {
              <div className='flex justify-center relative gap-5'>
                 <div>
                     <Link href={'mailto:adhayansharmaise2024@gmail.com'}>
-                    <MovingBorderBtn borderRadius='0.5rem' className='px-8 p-3 font-semibold '>
+                    <MovingBorderBtn style={{ zIndex: 1 }} borderRadius='0.5rem' className='px-8 p-3 font-semibold'>
                         <p>Send Mail</p>
                     </MovingBorderBtn>
                     </Link>
                 </div>
                 <div>
                     <Link href={'mailto:adhayansharmaise2024@gmail.com'}>
-                    <MovingBorderBtn borderRadius='0.5rem' className='p-3 font-semibold '>
+                    <MovingBorderBtn style={{ zIndex: 1 }} borderRadius='0.5rem' className='p-3 font-semibold'>
                         <p>Download Resume</p>
                     </MovingBorderBtn>
                     </Link>
@@ -33,7 +33,7 @@ function HeroSection() {
 
              </div>
     </div>
-    <BackgroundBeams />
+    <BackgroundBeams className='z-0' />
   </div>
   )
 }

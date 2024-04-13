@@ -25,7 +25,7 @@ function Projects() {
   return (
     <div className='py-10 p-5 sm:p-0'>
       <Title text='Projects' className='flex flex-col items-center justify-center'/>
-      <div className='grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 pt-20 gap-5'>
         {projects.map((project,idx)=>{
           return <Link key={idx} href={project.link}>
             <div className={cn("p-3 rounded-2xl ",project.background)}>
